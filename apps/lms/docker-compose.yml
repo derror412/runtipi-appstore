@@ -1,0 +1,22 @@
+version: '3'
+services:
+  lms:
+    container_name: lms
+    image: lmscommunity/lyrionmusicserver
+    volumes:
+      - ${APP_DATA_DIR}/config:/config:rw
+      - ${APP_DATA_DIR}/music:/music:ro
+      - ${APP_DATA_DIR}/playlists:/playlist:rw
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+    ports:
+      - 9000:9000/tcp
+      - 9090:9090/tcp
+      - 3483:3483/tcp
+      - 3483:3483/udp
+    environment:
+      - HTTP_PORT=9000
+    restart: unless-stopped
+    networks: 
+      - tipi_main_network
+
