@@ -17,6 +17,6 @@ services:
     environment:
       - HTTP_PORT=9000
     restart: unless-stopped
-    networks: 
+    networks:
       - tipi_main_network
 

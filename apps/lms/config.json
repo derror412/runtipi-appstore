@@ -2,7 +2,7 @@
   "name": "Lyrion Music Server",
   "available": true,
   "port": 9000,
-  "id": "lmsp",
+  "id": "lms",
   "description": "Lyrion Music Server",
   "tipi_version": 1,
   "version": "8.5.3",
