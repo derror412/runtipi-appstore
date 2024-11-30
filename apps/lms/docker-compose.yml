@@ -5,7 +5,8 @@ services:
     image: lmscommunity/lyrionmusicserver:9.0.0
     volumes:
       - ${APP_DATA_DIR}/config:/config:rw
-      - ${APP_DATA_DIR}/music:/music:ro
+      - /media/Music:/music:ro
+      - /media/Audiobooks:/audiobooks:ro
       - ${APP_DATA_DIR}/playlists:/playlist:rw
       - /etc/localtime:/etc/localtime:ro
       - /etc/timezone:/etc/timezone:ro
