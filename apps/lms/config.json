@@ -5,7 +5,7 @@
   "id": "lms",
   "description": "Lyrion Music Server",
   "tipi_version": 1,
-  "version": "8.5.3",
+  "version": "9.0.0",
   "categories": ["music"],
   "short_desc": "",
   "author": "https://github.com/LMS-Community/slimserver/",
