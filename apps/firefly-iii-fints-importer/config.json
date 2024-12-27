@@ -1,8 +1,8 @@
 {
   "name": "Firefly III FinTS importer",
   "available": true,
-  "port": 9001,
-  "id": "firefly-III-fints-importer",
+  "port": 8226,
+  "id": "firefly-iii-fints-importer",
   "description": "Firefly III FinTS importer",
   "tipi_version": 1,
   "version": "current",
