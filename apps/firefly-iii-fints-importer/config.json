@@ -1,14 +1,16 @@
 {
   "name": "Firefly III FinTS importer",
-  "available": true,
-  "port": 8226,
   "id": "firefly-iii-fints-importer",
-  "description": "Firefly III FinTS importer",
-  "tipi_version": 1,
-  "version": "current",
-  "categories": ["Finance"],
+  "available": true,
   "short_desc": "",
   "author": "https://github.com/bnw/firefly-iii-fints-importer",
+  "port": 8226,
+  "categories": ["Finance"],
+  "description": "Firefly III FinTS importer",
+  "tipi_version": 1,
+  "version": "1",
   "source": "https://github.com/bnw/firefly-iii-fints-importer",
+  "exposable": "false",
+  "supported_architectures": ["amd64"],
   "form_fields": []
 }
