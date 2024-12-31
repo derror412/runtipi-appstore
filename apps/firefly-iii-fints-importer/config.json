@@ -4,7 +4,7 @@
   "available": true,
   "short_desc": "Firefly FinTS importer",
   "author": "https://github.com/bnw/firefly-iii-fints-importer",
-  "port": 8226,
+  "port": 8227,
   "categories": ["finance"],
   "description": "Firefly III FinTS importer",
   "tipi_version": 1,
