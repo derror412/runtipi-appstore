@@ -8,9 +8,11 @@
   "categories": ["finance"],
   "description": "Firefly III FinTS importer",
   "tipi_version": 1,
-  "version": "1",
+  "version": "v0.0.1",
   "source": "https://github.com/bnw/firefly-iii-fints-importer",
   "exposable": "false",
   "supported_architectures": ["amd64"],
-  "form_fields": []
+  "form_fields": [],
+  "created_at": 1735661078490,
+  "updated_at": 1735661078490
 }
