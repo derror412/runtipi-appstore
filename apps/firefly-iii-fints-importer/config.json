@@ -10,7 +10,7 @@
   "tipi_version": 1,
   "version": "v0.0.1",
   "source": "https://github.com/bnw/firefly-iii-fints-importer",
-  "exposable": "false",
+  "exposable": false,
   "supported_architectures": ["amd64"],
   "form_fields": [],
   "created_at": 1735661078490,
