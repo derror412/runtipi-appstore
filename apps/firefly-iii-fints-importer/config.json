@@ -11,28 +11,10 @@
   "version": "v0.0.2",
   "source": "https://github.com/bnw/firefly-iii-fints-importer",
   "exposable": false,
-  "supported_architectures": ["amd64"],
+  "supported_architectures": ["arm64","amd64"],
   "created_at": 1735661078490,
-  "updated_at": 1735661078490,
+  "updated_at": 1735661078499,
   "form_fields": [
-    {
-      "type": "text",
-      "label": "Firefly III URL",
-      "required": false,
-      "env_variable": "FIREFLY_III_URL"
-    },
-    {
-      "type": "number",
-      "label": "Firefly III Public Client ID",
-      "required": false,
-      "env_variable": "FIREFLY_III_CLIENT_ID"
-    },
-    {
-      "type": "text",
-      "label": "Firefly III Personal Access Token",
-      "required": false,
-      "env_variable": "FIREFLY_III_ACCESS_TOKEN"
-    },
     {
       "type": "text",
       "label": "config mount path",
