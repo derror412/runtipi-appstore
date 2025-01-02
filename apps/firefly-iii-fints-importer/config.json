@@ -14,5 +14,31 @@
   "supported_architectures": ["amd64"],
   "form_fields": [],
   "created_at": 1735661078490,
-  "updated_at": 1735661078490
+  "updated_at": 1735661078490,
+  "form_fields": [
+    {
+      "type": "text",
+      "label": "Firefly III URL",
+      "required": false,
+      "env_variable": "FIREFLY_III_URL"
+    },
+    {
+      "type": "number",
+      "label": "Firefly III Public Client ID",
+      "required": false,
+      "env_variable": "FIREFLY_III_CLIENT_ID"
+    },
+    {
+      "type": "text",
+      "label": "Firefly III Personal Access Token",
+      "required": false,
+      "env_variable": "FIREFLY_III_ACCESS_TOKEN"
+    },
+    {
+      "type": "text",
+      "label": "config mount path",
+      "required": true,
+      "env_variable": "FIREFLY_III_CONFIG_PATH"
+    }
+  ]
 }
